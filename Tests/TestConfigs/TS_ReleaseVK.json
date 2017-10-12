@@ -29,6 +29,16 @@
             ]
         },
 
+        "AnimationTest":
+        {
+            "Enabled" : true,
+            "Project Name" : "FeatureDemo",
+            "Project Tests Args" :
+            [
+                "-test -fixedtimedelta 0.03333 -loadscene \\\\netapp-wa02\\public\\Falcor\\TestMedia\\Tentacle\\Tentacle.fscene -sstimes 1.5 2.5 -shutdowntime 4"
+            ]
+        },
+
         "FeatureDemoTest":
         {
             "Enabled" : true,
